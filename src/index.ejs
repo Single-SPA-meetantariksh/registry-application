@@ -36,7 +36,10 @@
       "imports": {
         "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
         "react": "https://unpkg.com/react@17/umd/react.production.min.js",
-        "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+        "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js",
+        "@antariksh-roy/root-config": "http://s3.ap-south-1.amazonaws.com/www.antarikshroy.com/antariksh-roy-root-config.js",
+        "@antariksh-roy/100-navigation-bar": "http://100-navigation-bar.s3.ap-south-1.amazonaws.com/antariksh-roy-100-navigation-bar.js",
+        "@antariksh-roy/101-application-landing": "http://101-application-landing.s3.ap-south-1.amazonaws.com/antariksh-roy-101-application-landing.js"
       }
     }
   </script>
@@ -49,8 +52,7 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa-meetantariksh/root-config": "http://localhost:9000/single-spa-meetantariksh-root-config.js",
-        "@antariksh-roy/101-application-landing": "http://localhost:8080/antariksh-roy-101-application-landing.js.gz",
+       
       }
     }
   </script>
@@ -74,7 +76,7 @@
 </head>
 <body>
   <script>
-    System.import('@single-spa-meetantariksh/root-config');
+    System.import('@antariksh-roy/root-config');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
