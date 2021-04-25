@@ -1,5 +1,5 @@
 {
-  "name": "@single-spa-meetantariksh/root-config",
+  "name": "@antariksh-roy/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js",
